@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  background-color: skyblue;
+}
+header .headerTop {
+  background-color: cornflowerblue;
+}
+header .headerTop .headerTopInner {
+  width: 1200px;
+  height: 35px;
+  margin: 0 auto;
+  background-color: blueviolet;
+}
+header .headerTop .headerTopInner::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header .headerTop .headerTopInner ul {
+  float: right;
+}
+header .headerTop .headerTopInner ul li {
+  display: inline-block;
+}
+header .headerTop .headerTopInner ul li p {
+  text-align: center;
+  width: 40px;
+  line-height: 35px;
+  height: 100%;
+  background-color: aqua;
+}
+header .headerBot {
+  background-color: #fff;
+  width: 100%;
+  height: 85px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+header .headerBot .headerBotInner {
+  width: 1200px;
+  margin: 0 auto;
+}
+header .headerBot .headerBotInner::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header .headerBot .headerBotInner .headerLeft {
+  float: left;
+}
+header .headerBot .headerBotInner .headerLeft .mainLogo {
+  width: 170px;
+  height: 85px;
+  background-color: crimson;
+}
+header .headerBot .headerBotInner .headerRight {
+  float: right;
+}
+header .headerBot .headerBotInner .headerRight ul {
+  text-align: center;
+}
+header .headerBot .headerBotInner .headerRight ul li {
+  display: inline-block;
+  width: 100px;
+  height: 85px;
+  line-height: 85px;
+  background-color: crimson;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: royalblue;
+}
+#main .mainArt {
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
+#main .mainArt:last-child {
+  margin-bottom: none;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: darkblue;
+}
+footer .footerInner {
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
