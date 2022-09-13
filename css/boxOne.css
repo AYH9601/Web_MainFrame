@@ -1,0 +1,78 @@
+.boxOne::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.boxOne .leftBox {
+  float: left;
+  width: 22%;
+  background-color: cadetblue;
+}
+.boxOne .leftBox ul li {
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 15px;
+  border: 1px solid rgb(230, 230, 230);
+  border-top: none;
+  background-color: burlywood;
+}
+.boxOne .leftBox ul .leftBoxTop {
+  background-color: coral;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+}
+.boxOne .boxContents {
+  float: left;
+  width: 78%;
+  height: 100%;
+  padding: 30px;
+}
+.boxOne .boxContents h2 {
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.boxOne .boxContents p {
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.boxOne .boxContents .boxContentsBoxTop {
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border: 2px solid rgb(230, 230, 230);
+}
+.boxOne .boxContents .boxContentsBoxTop h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.boxOne .boxContents .boxContentsBoxTop p {
+  font-size: 17px;
+}
+.boxOne .boxContents .boxContentsBoxBot {
+  width: 100%;
+  height: 100%;
+}
+.boxOne .boxContents .boxContentsBoxBot::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.boxOne .boxContents .boxContentsBoxBot .boxArea {
+  cursor: pointer;
+  float: left;
+  width: 280px;
+  height: 280px;
+  margin-right: 18px;
+  margin-bottom: 18px;
+  background-color: aquamarine;
+}
+.boxOne .boxContents .boxContentsBoxBot .boxArea:nth-of-type(3n) {
+  margin-right: 0;
+}

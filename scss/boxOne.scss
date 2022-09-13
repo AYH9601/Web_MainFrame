@@ -1,4 +1,4 @@
-.subOne {
+.boxOne {
     &::after {content:''; display:block; clear:both;}
 
     .leftBox {
@@ -25,12 +25,12 @@
         }
     }
 
-    .subContents {
+    .boxContents {
         float: left;
         width: 78%;
         height: 100%;
         padding: 30px;
-        h1 {
+        h2 {
             text-align: left;
             font-size: 30px;
             margin-bottom: 10px;
@@ -41,24 +41,39 @@
             margin-bottom: 10px;
         }
 
-        table {
-            border: none;
+        .boxContentsBoxTop {
             width: 100%;
-            border-collapse: collapse;
+            height: 300px;
+            background-color: #fff;
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 2px solid rgb(230,230,230);
 
-            thead {
-                background-color: darkcyan;
-                height: 40px;
+            h3 {
+                font-size: 20px;
+                margin-bottom: 10px;
             }
 
-            tbody {
-                text-align: center;
-                background-color: #fff;
-                tr {
-                    border-bottom: 1px solid rgb(230,230,230);
-                    height: 40px;
+            p {
+                font-size: 17px;
+            }
+        }
+
+        .boxContentsBoxBot {
+            width: 100%;
+            height: 100%;
+            &::after {content:''; display:block; clear:both;}
+            .boxArea {
+                cursor: pointer;
+                float: left;
+                width: 280px;
+                height: 280px;
+                margin-right: 18px;
+                margin-bottom: 18px;
+                background-color: aquamarine;
+                &:nth-of-type(3n) {
+                    margin-right: 0;
                 }
-                .textLeft {text-align: left; cursor: pointer;}
             }
         }
     }
