@@ -36,8 +36,13 @@ ol, ul, li {
 #header .headerTop .headerTopInner ul {
   float: right;
 }
+#header .headerTop .headerTopInner ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 #header .headerTop .headerTopInner ul li {
-  display: inline-block;
+  float: left;
 }
 #header .headerTop .headerTopInner ul li p {
   text-align: center;
@@ -73,11 +78,16 @@ ol, ul, li {
 #header .headerBot .headerBotInner .headerRight {
   float: right;
 }
+#header .headerBot .headerBotInner .headerRight::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 #header .headerBot .headerBotInner .headerRight ul {
   text-align: center;
 }
 #header .headerBot .headerBotInner .headerRight ul li {
-  display: inline-block;
+  float: left;
   width: 100px;
   height: 85px;
   line-height: 85px;
