@@ -22,7 +22,7 @@
 .mapOne .mapRight {
   width: 78%;
   float: right;
-  padding: 30px 60px 60px 60px;
+  padding: 30px;
 }
 .mapOne .mapRight h1 {
   font-size: 35px;
