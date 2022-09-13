@@ -50,7 +50,7 @@ ol, ul, li {
 }
 #header .headerTop .headerTopInner ul li a, #header .headerTop .headerTopInner ul li p {
   text-align: center;
-  width: 40px;
+  width: 70px;
   height: 100%;
   line-height: 35px;
   height: 100%;
@@ -78,6 +78,9 @@ ol, ul, li {
   cursor: pointer;
   width: 170px;
   height: 85px;
+  text-align: center;
+  line-height: 85px;
+  color: #fff;
   background-color: crimson;
 }
 #header .headerBot .headerBotInner .headerRight {
@@ -110,8 +113,9 @@ ol, ul, li {
   margin: 0 auto;
   background-color: antiquewhite;
 }
-#main .mainArt:last-child {
-  margin-bottom: none;
+#main .mainArt .mainContents {
+  width: 100%;
+  height: 150px;
 }
 
 #footer {
