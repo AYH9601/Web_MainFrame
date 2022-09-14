@@ -1,0 +1,24 @@
+.swiperOne {
+    .swiperContents {
+        #SwiperMainFrame {
+            .swiper-slide {
+                height: 500px;
+                background-color: forestgreen;
+                .SwiperText {
+                    font-size: 25px;
+                }
+                .SwiperTextMore {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+.swiperTwo {
+    .swiperTwoContents {
+        padding: 30px;
+        width: 100%;
+        height: 400px;
+    }
+}

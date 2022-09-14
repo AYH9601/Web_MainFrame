@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+    <script defer src="js/swiper.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <title>Swiper to Swiper.</title>
+</head>
+<body>
+    <header id="header">
+        <div class="headerTop">
+            <div class="headerTopInner">
+                <ul>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="jsonPage.html">JSON</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="headerBot">
+            <div class="headerBotInner">
+                <div class="headerLeft">
+                    <div class="mainLogo" onclick="mainLogo()">Main Logo</div>
+                </div>
+        
+                <div class="headerRight">
+                    <ul>
+                        <li>
+                            <a href="subPage.html">SubPage</a>
+                        </li>
+                        <li>
+                            <a href="boxPage.html">BoxPage</a>
+                        </li>
+                        <li>
+                            <a href="mapPage.html">Map</a>
+                        </li>
+                        <li>
+                            <a href="swiperPage.html">Swiper</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="main">
+        <article class="mainArt swiperOne">
+            <div class="swiperContents">
+                <div id="SwiperMainFrame">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <h1 class="SwiperText">Text1</h1>
+                                <p class="SwiperTextMore">A</p>
+                            </div>
+            
+                            <div class="swiper-slide">
+                                <h1 class="SwiperText">Text2</h1>
+                                <p class="SwiperTextMore">B</p>
+                            </div>
+            
+                            <div class="swiper-slide">
+                                <h1 class="SwiperText">Text3</h1>
+                                <p class="SwiperTextMore">C</p>
+                            </div>
+            
+                            <div class="swiper-slide">
+                                <h1 class="SwiperText">Text4</h1>
+                                <p class="SwiperTextMore">D</p>
+                            </div>
+            
+                            <div class="swiper-slide">
+                                <h1 class="SwiperText">Text5</h1>
+                                <p class="SwiperTextMore">E</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="mainArt swiperTwo">
+            <div class="swiperTwoContents">
+                <h1>Text</h1>
+                <p>Where is your Text</p>
+            </div>
+        </article>
+    </section>
+
+    <footer id="footer">
+        <div class="footerInner">
+        </div>
+    </footer>
+</body>
+</html>
