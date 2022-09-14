@@ -2,6 +2,7 @@
     .swiperContents {
         #SwiperMainFrame {
             .swiper-slide {
+                cursor: pointer;
                 height: 500px;
                 background-color: forestgreen;
                 .SwiperText {
