@@ -7,6 +7,8 @@
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/main.js"></script>
+    <script defer src="js/map.js"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=YOURKEY"></script>
     <title>Particle</title>
 </head>
 <body>
@@ -62,7 +64,7 @@
             <div class="mapRight">
                 <h1>How to find.</h1>
                 <div class="mapTop">
-                    <div class="mapContentsBox"></div>
+                    <div class="mapContentsBox" id="map"></div>
                     <h2>Map 1</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, est.</p>
                 </div>
@@ -80,5 +82,11 @@
         <div class="footerInner">
         </div>
     </footer>
+
+    <div class="showBox">
+        <div class="showBoxInner">
+            <div class="showBoxInnerIMG"></div>
+        </div>
+    </div>
 </body>
 </html>
